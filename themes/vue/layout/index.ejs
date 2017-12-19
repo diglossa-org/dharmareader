@@ -1,0 +1,63 @@
+<div class="sidebar">
+  <div class="sidebar-inner-index">
+    <ul class="main-menu">
+      <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+    </ul>
+  </div>
+</div>
+
+<div id="hero">
+  <div class="inner">
+    <div class="left">
+      <img class="hero-logo" src="<%- url_for("/images/book.png") %>">
+    </div><div class="right">
+      <h2 class="vue"></h2>
+      <h1>
+        software for reading<br> and understanding
+      </h1>
+      <p>what you read
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+    <p>based on</p>
+      <h2>CouchDB</h2>
+      <p>distributed, multiuser, open-source, cross-platform, scalable, with multi-master sync</p>
+    </div>
+
+    <div class="point">
+    <p>based on</p>
+      <h2>Electron.js</h2>
+      <p>framework for creating native applications with node.js.</p>
+    </div>
+
+    <div class="point">
+      <h2></h2>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div id="footer">
+  <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">GNU GPL License</a><br>
+  Copyright &copy; 2008-<%- new Date().getFullYear() %> Michael Bykov</p>
+</div>
+
+<script>
+var topScrolled = false
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > 165 && !topScrolled) {
+    topScrolled = true
+    document.getElementById('mobile-bar').classList.remove('top')
+  } else if (window.pageYOffset <= 165 && topScrolled) {
+    topScrolled = false
+    document.getElementById('mobile-bar').classList.add('top')
+  }
+})
+</script>

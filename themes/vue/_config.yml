@@ -1,0 +1,4 @@
+site_description: "dharmareader.diglossa.org"
+google_analytics: UA
+root_domain: dharmareader.diglossa.org
+vue_version: 2.4.0

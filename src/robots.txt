@@ -1,0 +1,9 @@
+Host: morph.diglossa.org
+
+User-agent: Yandex
+Allow: /
+Sitemap: http://morph.diglossa.org/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: http://morph.diglossa.org/sitemap.xml

@@ -2,10 +2,10 @@
 title: Contacts
 ---
 
-> contscts:
+> contacts:
 
-- Michael Bykov m.bykov@gmail.com
-- Peter Hauer linguasoft_2017@yahoo.com
+- Michael Bykov, m.bykov@gmail.com
+- Peter Hauer, dharmareaderlinguasoft_2017@mail.ru
 
 >discussion:
 
